@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/google-sans" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Jadoo</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__topline-wrap">
+          <a href="#" class="header__logo link">
+            <svg class="header__logo-icon icon">
+              <use href="./img/svg/header-logo.svg#logo"></use>
+            </svg>
+          </a>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Desitnations</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Hotels</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Flights</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Bookings</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__autorization">
+            <button class="header__login">Login</button>
+            <button class="header__sing-up">Sign up</button>
+          </div>
+          <div class="header__languases">
+            En
+            <svg class="header__languases-icon icon">
+              <use href="./img/svg/symbol-defs.svg#icon-down-arrow"></use>
+            </svg>
+          </div>
+          <button class="header__burger">
+            <svg class="header__burger-icon icon">
+              <use href="./img/svg/symbol-defs.svg#icon-menu-burger"></use>
+            </svg>
+          </button>
+        </div>
+        <nav class="header__mob-nav">
+          <ul class="header__mob-nav-list">
+            <li class="header__mob-nav-item">
+              <a href="#" class="header__mob-nav-link">Desitnations</a>
+            </li>
+            <li class="header__mob-nav-item">
+              <a href="#" class="header__mob-nav-link">Hotels</a>
+            </li>
+            <li class="header__mob-nav-item">
+              <a href="#" class="header__mob-nav-link">Flights</a>
+            </li>
+            <li class="header__mob-nav-item">
+              <a href="#" class="header__mob-nav-link">Bookings</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__text-wrap">
+            <p class="hero__desc">Best Destinations around the world</p>
+            <h1 class="hero__title">
+              Travel, enjoy and live a new and full life
+            </h1>
+            <p class="hero__subtitle">
+              Built Wicket longer admire do barton vanity itself do in it.
+              Preferred to sportsmen it engrossed listening. Park gate sell they
+              west hard for the.
+            </p>
+            <div class="hero__buttons-wrap">
+              <button class="hero__btn-more">Find out more</button>
+              <button class="hero__btn-demo">
+                <span class="hero__btn-demo-icon-wrap">
+                  <svg class="hero__btn-demo-icon">
+                    <use href="./img/svg/btn-play.svg#play"></use>
+                  </svg>
+                </span>
+                Play Demo
+              </button>
+            </div>
+          </div>
+          <div class="hero__img-thumb">
+            <img src="./img/hero-traveller.png" alt="photo girl" />
+          </div>
+        </div>
+      </section>
+      <section class="category">
+        <div class="category__container container">
+          <p class="category__desk">category</p>
+          <h2 class="category__tittle">We Offer Best Services</h2>
+          <button class="category__btn">More</button>
+          <ul class="category-list">
+            <li class="category-list__item">
+              <svg class="category-list__img">
+                <use href="./img/svg/symbol-defs.svg#icon-weather"></use>
+              </svg>
+              <h3 class="category-list__title">Calculated Weather</h3>
+              <p class="category-list__text">
+                Built Wicket longer admire do barton vanity itself do in it.
+              </p>
+            </li>
+            <li class="category-list__item category-active">
+              <svg class="category-list__img">
+                <use href="./img/svg/symbol-defs.svg#icon-plane"></use>
+              </svg>
+              <h3 class="category-list__title">Best Flights</h3>
+              <p class="category-list__text">
+                Engrossed listening. Park gate sell they west hard for the.
+              </p>
+            </li>
+            <li class="category-list__item">
+              <img
+                src="./img/microphone.png"
+                alt="microphone"
+                class="category-list__img"
+              />
+              <h3 class="category-list__title">Local Events</h3>
+              <p class="category-list__text">
+                Barton vanity itself do in it. Preferd to men it engrossed
+                listening.
+              </p>
+            </li>
+            <li class="category-list__item">
+              <svg class="category-list__img">
+                <use href="./img/svg/symbol-defs.svg#icon-gear"></use>
+              </svg>
+              <h3 class="category-list__title">Customization</h3>
+              <p class="category-list__text">
+                We deliver outsourced aviation services for military customers
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="destinations">
+        <div class="destinations__container container">
+          <p class="destinations__desc">Top Selling</p>
+          <h2 class="destinations__title">Top Destinations</h2>
+          <ul class="destinations-list">
+            <li class="destinations-list__item">
+              <img
+                src="./img/destination-rome.png"
+                alt=""
+                class="destinations-list__img"
+              />
+              <div class="destinations-list__text-content">
+                <div class="destinations-list__topline">
+                  <h3 class="destinations-list__title">Rome, Italty</h3>
+                  <p class="destinations-list__price">$5,<span>42k</span></p>
+                </div>
+                <p class="destinations-list__duration">
+                  10 Days<span> Trip</span>
+                </p>
+              </div>
+            </li>
+            <li class="destinations-list__item">
+              <img
+                src="./img/destination-london.png"
+                alt=""
+                class="destinations-list__img"
+              />
+              <div class="destinations-list__text-content">
+                <div class="destinations-list__topline">
+                  <h3 class="destinations-list__title">London, UK</h3>
+                  <p class="destinations-list__price">$4.2<span>k</span></p>
+                </div>
+                <p class="destinations-list__duration">
+                  12 Days<span> Trip</span>
+                </p>
+              </div>
+            </li>
+            <li class="destinations-list__item">
+              <img
+                src="./img/destination-europe.png"
+                alt=""
+                class="destination-list__img"
+              />
+              <div class="destinations-list__text-content">
+                <div class="destinations-list__topline">
+                  <h3 class="destinations-list__title">Full Europe</h3>
+                  <p class="destinations-list__price">$15<span>k</span></p>
+                </div>
+                <p class="destinations-list__duration">
+                  28 Days<span> Trip</span>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="advantages__container container">
+          <p class="advantages__desc">Easy and Fast</p>
+          <div class="advantages__info">
+            <h2 class="advantages__title">
+              Book your next trip in 3 easy steps
+            </h2>
+            <ul class="advantages__step-list">
+              <li class="advantages__item">
+                <div class="advantages__wrap-icon wrap_yellow">
+                  <svg>
+                    <use href="./img/svg/first-step.svg#icon"></use>
+                  </svg>
+                </div>
+                <div class="advantages__wrap-text">
+                  <h3 class="advantages__item-title">Choose Destination</h3>
+                  <p class="advantages__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </li>
+              <li class="advantages__item">
+                <div class="advantages__wrap-icon wrap_red">
+                  <svg>
+                    <use href="./img/svg/second-step.svg#water"></use>
+                  </svg>
+                </div>
+                <div class="advantages__wrap-text">
+                  <h3 class="advantages__item-title">Make Payment</h3>
+                  <p class="advantages__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </li>
+              <li class="advantages__item">
+                <div class="advantages__wrap-icon wrap_green">
+                  <svg>
+                    <use href="./img/svg/third-step.svg#taxi"></use>
+                  </svg>
+                </div>
+                <div class="advantages__wrap-text">
+                  <h3 class="advantages__item-title">
+                    Reach Airport on Selected Date
+                  </h3>
+                  <p class="advantages__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="advantages__card">
+            <img src="./img/card-girl.png" alt="girl trip to greece" />
+            <h3 class="advantages__place">Trip To Greece</h3>
+            <p class="advantages__place-text">
+              14-29 June
+              <span>by Robbin joseph</span>
+            </p>
+            <ul class="advantages__links">
+              <li class="advantages__links-item">
+                <a href="#" class="advantages__link">
+                  <svg>
+                    <use href="./img/svg/leaf.svg#leaf"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="advantages__links-item">
+                <a href="#" class="advantages__link">
+                  <svg>
+                    <use href="./img/svg/map.svg#map"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="advantages__links-item">
+                <a href="#" class="advantages__link">
+                  <svg>
+                    <use href="./img/svg/send.svg#send"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div class="advantages__recommendation">
+              <p class="advantages__recommendation-text">
+                <svg>
+                  <use href="./img/svg/building.svg#building"></use>
+                </svg>
+                <span>24 people going</span>
+              </p>
+              <svg>
+                <use href="./img/svg/heart.svg#heart"></use>
+              </svg>
+            </div>
+            <div class="advantages__drop-card">
+              <div class="advantages__wrap-img">
+                <img
+                  width="50"
+                  height="50"
+                  src="./img/advantages-cmall-card.png"
+                  alt="build place"
+                />
+              </div>
+              <div class="advantages__wrap-card-text">
+                <p class="advantages__topline">Ongoing</p>
+                <h3 class="advantages__place">Trip to rome</h3>
+                <p class="advantages__progress"><span>40%</span> completed</p>
+                <div class="advantages__progress-line">
+                  <div class="advantages__progress-line-filled"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonals">
+        <div class="testimonals__container container">
+          <div class="testimonals__head">
+            <p class="testimonals__desc">Testimonals</p>
+            <h2 class="testimonals__tittle">What people say about us</h2>
+          </div>
+          <div class="testimonals__response">
+            <p class="testimonals__text">
+              “On the Windows talking painted pasture yet its express parties
+              use. Sure last upon he same as knew next. Of believed or diverted
+              no.”
+            </p>
+            <p class="testimonals__signature">Mike Taylor</p>
+            <p class="testimonals__location">Lahore, Pakistan</p>
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="partners__container container">
+          <p class="partners__desc">Top Selling</p>
+          <ul class="partners__list">
+            <li class="partners__item">
+              <a href="http://www.axonaviation.com/">
+                <img
+                  src="./img/partner-image1.png"
+                  alt=""
+                  class="partners__img"
+                  width="130"
+                  height="120"
+                />
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="https://www.jetstar.com/">
+                <img
+                  src="./img/partner-image2.png"
+                  alt=""
+                  class="partners__img"
+                  width="172"
+                  height="102"
+                />
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="https://www.expedia.com/">
+                <img
+                  src="./img/partner-image3.png"
+                  alt=""
+                  class="partners__img"
+                  width="241"
+                  height="149"
+                />
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="https://www.qantas.com/">
+                <img
+                  src="./img/partner-image4.png"
+                  alt=""
+                  class="partners__img"
+                  width="162"
+                  height="30"
+                />
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="https://www.ita-airways.com/">
+                <img
+                  src="./img/partner-image5.png"
+                  alt=""
+                  class="partners__img"
+                  width="94"
+                  height="21"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="subscribe__container container">
+          <h2 class="subscribe__title">
+            Subscribe to get information, latest news and other interesting
+            offers about Cobham
+          </h2>
+          <form class="subscribe__form">
+            <label class="subscribe__label" for="email">
+              <input
+                id="email"
+                class="subscribe__input"
+                type="email"
+                placeholder="Your email"
+                required
+              />
+            </label>
+            <button class="subscribe__btn" type="submit">Subscribe</button>
+          </form>
+          <div class="subscribe__telegram">
+            <svg class="subscribe__telegram-icon">
+              <use href="./img/svg/telegram.svg#telegram"></use>
+            </svg>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__logo">Jadoo.</a>
+            <p class="footer__description">
+              Book your trip in minute, get full Control for much longer.
+            </p>
+          </li>
+          <li class="footer__item">
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer-links">
+              <li class="footer-links__item">
+                <a href="" class="footer-links__link">About</a>
+              </li>
+              <li class="footer-links__item">
+                <a href="" class="footer-links__link">Careers</a>
+              </li>
+              <li class="footer-links__item">
+                <a href="" class="footer-links__link">Mobile</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__item">
+            <h3 class="footer__title">Contact</h3>
+            <ul class="footer-links">
+              <li class="footer-links__item">
+                <a href="" class="footer-links__link">Help/FAQ</a>
+              </li>
+              <li class="footer-links__item">
+                <a href="" class="footer-links__link">Press</a>
+              </li>
+              <li class="footer-links__item">
+                <a href="" class="footer-links__link">Affilates</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__item">
+            <h3 class="footer__title">More</h3>
+            <ul class="footer-links">
+              <li class="footer-links__item">
+                <a href="" class="footer-links__link">Airlinefees</a>
+              </li>
+              <li class="footer-links__item">
+                <a href="" class="footer-links__link">Airline</a>
+              </li>
+              <li class="footer-links__item">
+                <a href="" class="footer-links__link">Low fare tips</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__item">
+            <ul class="social-networks">
+              <li class="social-networks__item">
+                <a href="" class="social-networks__link">
+                  <svg class="social-networks__svg">
+                    <use href="./img/svg/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-networks__item">
+                <a href="" class="social-networks__link">
+                  <svg class="social-networks__svg">
+                    <use href="./img/svg/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-networks__item">
+                <a href="" class="social-networks__link">
+                  <svg class="social-networks__svg">
+                    <use href="./img/svg/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-networks__item">
+                <a href="" class="social-networks__link">
+                  <svg class="social-networks__svg">
+                    <use href="./img/svg/symbol-defs.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div class="applications">
+              <h3 class="applications__title">Discover our app</h3>
+              <ul class="applications-links">
+                <li class="applications-links__item">
+                  <a href="" class="applications-links__link">
+                    <svg class="applications-links__img">
+                      <use
+                        href="./img/svg/symbol-defs.svg#icon-google-play"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="applications-links__item">
+                  <a href="" class="applications-links__link">
+                    <svg class="applications-links__img">
+                      <use
+                        href="./img/svg/symbol-defs.svg#icon-apple-store"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <a href="" class="footer__copyright">All rights reserved@jadoo.co</a>
+      </div>
+    </footer>
+  </body>
+</html>
