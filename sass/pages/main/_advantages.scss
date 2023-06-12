@@ -1,26 +1,18 @@
 .advantages {
-  padding-top: 120px;
   padding-bottom: 95px;
   @media screen and (min-width: 1200px) {
-    padding-top: 186px;
     padding-bottom: 200px;
   }
   &__container {
     @media screen and (min-width: 1200px) {
       display: flex;
+      align-items: center;
       justify-content: center;
       gap: 118px;
     }
   }
   &__desc {
     display: none;
-    // margin-bottom: 15px;
-    // font-size: 18px;
-    // font-weight: 600;
-    // line-height: 1.5;
-    // @media screen and (max-width: 767.8px) {
-    //     display: none;
-    //   }
   }
   &__info {
     max-width: 500px;
