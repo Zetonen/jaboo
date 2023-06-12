@@ -394,7 +394,7 @@ button {
   height: 156px;
   top: -24px;
   right: -8px;
-  background-image: url("../../../img/hero-mob-plus.png");
+  background-image: url("../img/hero-mob-plus.png");
   background-repeat: no-repeat;
 }
 @media screen and (min-width: 768px) {
@@ -961,7 +961,7 @@ button {
   left: -41px;
   width: 148px;
   height: 165px;
-  background-image: url(../../../img/svg/dest-pluses.svg);
+  background-image: url(../img/svg/dest-pluses.svg);
 }
 @media screen and (min-width: 768px) {
   .destinations__container::before {
@@ -1195,7 +1195,7 @@ button {
   content: "";
   width: 68px;
   height: 68px;
-  background-image: url(../../../img/testimonals-man.png);
+  background-image: url(../img/testimonals-man.png);
   position: absolute;
   top: -47px;
   left: 146px;
@@ -1385,7 +1385,7 @@ button {
   .subscribe__container {
     padding-top: 79px;
     padding-bottom: 78px;
-    background-image: url("../../../img/subscribe-form-bg.png");
+    background-image: url("../img/subscribe-form-bg.png");
     background-position: bottom left -79px, top right;
     background-repeat: no-repeat;
   }
